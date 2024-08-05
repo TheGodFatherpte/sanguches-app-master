@@ -1,0 +1,26 @@
+{
+  "name": "sanguches",
+  "version": "1.0.0",
+  "description": "bulding an ecommerce website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGodFatherpte/Sanguches-master.git"
+  },
+  "author": "Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheGodFatherpte/Sanguches-master/issues"
+  },
+  "homepage": "https://github.com/TheGodFatherpte/Sanguches-master#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "install:app": "concurrently \"cd backend && composer install\"",
+    "start": "concurrently \"cd backend && php artisan serve \""
+  }
+}
