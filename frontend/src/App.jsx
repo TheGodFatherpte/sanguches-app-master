@@ -1,5 +1,6 @@
 import React from 'react';
-import { CTA, Combo, Favorites, Footer, Hero, Navbar, Promotions } from './components';
+import { CTA, Combo, Favorites, Footer, Hero, Navbar, Promotions, Testimonials } from './components';
+import Products from './components/Products/Products.jsx';
 import styles from './style';
 
 const App = () => (
@@ -19,9 +20,11 @@ const App = () => (
     <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Favorites />
+        <Products />
         <Promotions />
         <Combo />
         <CTA />
+        <Testimonials />
         <Footer />
       </div>
     </div>
