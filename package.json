@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "bulding an ecommerce website",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheGodFatherpte/Sanguches-master.git"
@@ -21,6 +19,9 @@
   },
   "scripts": {
     "install:app": "concurrently \"cd backend && composer install\"",
-    "start": "concurrently \"cd backend && php artisan serve \""
+    "start": "concurrently \"cd backend && php artisan serve \"",
+    "start:frontend": "concurrently \"cd frontend && npm start\"",
+    "start:backend": "concurrently \"cd backend && php artisan serve\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
