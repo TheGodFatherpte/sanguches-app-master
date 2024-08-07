@@ -1,8 +1,6 @@
 import React from 'react';
-import { CTA, Combo, Favorites, Footer, Hero, Navbar, Promotions, Testimonials } from './components';
-import Products from './components/Products/Products.jsx';
+import { CTA, Combo, Favorites, Footer, Hero, Navbar, Products, Promotions, Testimonials } from './components';
 import styles from './style';
-
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
