@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "bulding an ecommerce website",
   "main": "index.js",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheGodFatherpte/Sanguches-master.git"
@@ -15,7 +14,8 @@
   },
   "homepage": "https://github.com/TheGodFatherpte/Sanguches-master#readme",
   "dependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "react-router-dom": "^6.26.0"
   },
   "scripts": {
     "install:app": "concurrently \"cd backend && composer install\"",

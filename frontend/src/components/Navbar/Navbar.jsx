@@ -17,7 +17,7 @@ export const Navbar = () => {
           <Toolbar>
             <Typography variant="h6" className={classes.title} color="inherit" component="div" sx={{ flexGrow: 1 }}>
               <img src={logo} alt="logo" width="200px" height="25px" className={classes.image} />
-              Sanguches
+              
             </Typography>
             <div className={classes.grow} />
             <div className={classes.button}>
