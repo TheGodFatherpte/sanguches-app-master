@@ -3,6 +3,15 @@ import { makeStyles } from '@mui/styles';
 const drawerWidth = 0;
 
 export default makeStyles((theme) => ({
+
+    
+    
+    navlinks : {//magnet navbar
+        color : 'white',
+        textDecoration : 'none',
+        
+
+    },
     appBar: {
         boxShadow: 'none',
         borderBottom: '1px solid rgba(0, 0, 0, 0.12)',
